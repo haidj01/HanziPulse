@@ -1,0 +1,65 @@
+project: HanziPulse
+version: "1.0"
+
+keywords:
+  traditional_korean:
+    - korean traditional art
+    - minhwa
+    - folk art
+    - dancheong
+    - hanji
+
+  korean_objects:
+    - angbuilgu
+    - geobukseon
+    - gat
+    - gombandae
+    - joseon
+    - hanbok
+
+  streetwear_fashion:
+    - korean streetwear
+    - asian streetwear
+    - hypebeast
+    - graphic tee
+    - korean fashion
+
+  cultural_fusion:
+    - korean heritage fashion
+    - asia inspired streetwear
+    - cultural graphic tee
+    - korean art print
+    - east asian streetwear
+
+  korean_cities:
+    - jeju
+    - seoul
+    - busan
+    - gwangju
+    - incheon
+    - gyeongju
+    - jeonju
+
+  korean_travel:
+    - korea travel souvenir
+    - visit korea
+    - korean landmark
+    - korea tourist
+    - k-culture
+
+settings:
+  trends:
+    timeframe: "today 6-m"    # 최근 6개월
+    geo: "US"                  # 미국 시장 타겟
+    language: "en"
+
+  etsy:
+    max_listings: 100
+    sort_by: "most_relevant"
+
+  analysis:
+    min_cooccurrence: 3        # 최소 동시 등장 횟수
+    top_keywords: 20           # 상위 키워드 수
+
+  schedule:
+    frequency: "weekly"        # 수집 주기
